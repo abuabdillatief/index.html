@@ -1,0 +1,339 @@
+/******************************Tag Selectors******************************/
+body {
+  text-align: center;
+  font-family: Futura, Arial;
+  background-color: #E9E6C9;
+  color: #40514e;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: Arial, sans-serif;
+  color: #ba6d21;
+}
+
+h2 {
+  font-size: 5rem;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+h3 {
+  color: black;
+  font-size: 3rem;
+}
+
+a {
+  color: #9d2503;
+  font-size: 3rem;
+  margin: 0 2rem;
+  text-decoration: none;
+}
+
+p {
+  font-size: 3.8rem;
+}
+
+hr {
+  border: dotted #f3cf7a 20px;
+  border-bottom: none;
+  width: 2%;
+  margin: 11rem auto;
+}
+
+/******************************Class Selectors******************************/
+.top-container {
+  background-color: #E9E6C9;
+  position: relative;
+  padding-top: 20px;
+  width: auto;
+  display: block;
+}
+
+.top-container-content {
+  max-width: 70%;
+  height: auto;
+  left: 15%;
+  right: 15%;
+  position: relative;
+}
+.hr-line {
+  transition: width 1s;
+}
+
+.hr-line:hover {
+  transition-timing-function: ease;
+  width: 5%;
+}
+.main-logo {
+  height: auto;
+  min-width: 115rem;
+  position: relative;
+  z-index: 3
+}
+.filler {
+  height: 30px;
+  width: auto;
+  background-color: #ba6d21;
+  z-index: 3;
+}
+.subtitle {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  color: ##EEECD7;
+  font-weight: normal;
+  font-size: 10rem;
+}
+
+.middle-cloud {
+  position: absolute;
+  right: 15%;
+  top: 20%;
+  z-index: 1;
+  max-width: 50rem;
+  min-width: 30rem;
+  height: auto;
+  height: auto;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 15%;
+  top: 35%;
+  max-height: auto;
+  max-width: 50rem;
+  min-width: 30rem;
+  height: auto;
+  z-index: 2;
+}
+
+.forest-1 {
+  position: absolute;
+  max-height: auto;
+  max-width: 20rem;
+  min-width: 10rem;
+  bottom: 0px;
+  left: 0px;
+  z-index: 3;
+}
+
+.forest-2 {
+  max-height: auto;
+  max-width: 20rem;
+  min-width: 10rem;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 3
+}
+
+.mountain {
+  max-height: auto;
+  max-width: 150rem;
+  min-width: 100rem;
+  position: relative;
+  top: 0.8rem;
+  z-index: 1;
+}
+
+
+.middle-container {
+  background-color: #E9E6C9;
+  width: auto;
+  display: block;
+  border-top:
+}
+
+.profile {
+  max-width: 70%;
+  left: 15%;
+  right: 15%;
+  position: relative;
+}
+
+.profilephoto {
+  max-height: auto;
+  max-width: 50rem;
+  min-width: 35rem;
+  padding-top: 20px;
+}
+
+.text-profile {
+  max-width: 170rem;
+  margin: auto;
+  bottom: 10%;
+  text-align: justify;
+}
+
+.question-mark {
+  width: 35rem;
+  height: auto;
+  position: fixed;
+  z-index: 3;
+  right: 10px;
+  bottom: 70%;
+}
+
+.my-skills {
+  max-width: 70%;
+  height: 20%;
+  position: relative;
+  background-color: #E9E6C9;
+  display: block;
+  margin: auto;
+}
+
+.skill-1 {
+  max-height: 40%;
+  max-width: 170rem;
+  position: relative;
+  bottom: 2rem;
+  margin: auto;
+  display: inline-block;
+}
+
+.skills-image-1 {
+  width: 30rem;
+  max-height: auto;
+  float: left;
+  position: relative;
+  display: block;
+  right: 3px;
+}
+
+
+.title-skill-1 {
+  padding: 10px;
+  text-align: left;
+  font-size: 3.5rem;
+  position: relative;
+  margin: 0;
+}
+
+.text-skill-1 {
+  padding: 10px;
+  text-align: justify;
+  line-height: 2;
+  position: relative;
+}
+
+.skill-2 {
+  max-height: 40%;
+  max-width: 170rem;
+  position: relative;
+  bottom: 2rem;
+  display: inline-block;
+  margin: auto;
+}
+
+.skills-image-2 {
+  width: 30rem;
+  max-height: auto;
+  float: right;
+  position: relative;
+  display: block;
+  top: 2rem;
+  transform: scaleY(-1);
+
+
+}
+
+.title-skill-2 {
+  padding: 10px;
+  text-align: right;
+  font-size: 3.5rem;
+  position: relative;
+  margin-left: 0;
+}
+
+.text-skill-2 {
+  padding: 10px;
+  text-align: right;
+  line-height: 2;
+  position: relative;
+}
+
+.getintouch {
+  position: relative;
+  background-color: #E9E6C9;
+  margin: 2rem 0;
+  z-index: 1;
+}
+
+.getintouch-textandimage {
+  margin: auto;
+  width: 50%;
+}
+
+.getintouch-head {
+  max-width: 70%;
+  height: auto;
+  margin: 100px auto;
+  position: relative;
+  display: block;
+  top: 30px;
+}
+
+.getintouch-image {
+  max-width: 30rem;
+  height: auto;
+}
+
+.text-getintouch {
+  padding: 1rem;
+}
+
+.bottom-container {
+  position: relative;
+  top: 5%;
+  background-color: #f3cf7a;
+  border-radius: 30px;
+  margin:30px;
+}
+
+.myButton {
+  background-color: #f3cf7a;
+  border-radius: 40px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ba6d21;
+  font-family: Arial;
+  font-size: 3rem;
+  padding: 15px 30px;
+  margin: 3rem auto;
+  font-weight: bold;
+  text-shadow: 0px 1px 0px #ba6d21;
+  text-decoration: none;
+
+}
+
+.myButton:hover {
+  background-color: white;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.contact-image {
+  max-width: 18rem;
+  height: auto;
+  position: relative;
+  bottom: 2rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  margin: 3rem;
+  position: relative;
+  top: 1rem;
+  font-size: 2.5rem;
+}
+.footer-link:hover {
+ color: #eaf6f6;
+}
+.footer {
+  font-size: 2rem;
+}
+/******************************ID Selectors******************************/
